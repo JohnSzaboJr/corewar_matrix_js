@@ -1,7 +1,9 @@
 # corewar_matrix_js
 Web-based visualisation of corewar, Matrix-style 
 
-The javascript reads a json produced by the virtual machine, and displays the battle in the "Matrix" style.
+![screenshot](https://raw.githubusercontent.com/JohnSzaboJr/corewar_matrix_js/master/screenshot.png)
+
+The javascript reads a js array produced by the virtual machine (written in C), and displays the battle in the "Matrix" style.
 Each of the 256 bytes are represented by a character. '\0' is represented by empty space, the rest goes as follows:
 
 1st 63: Japanese katakana
